@@ -47,7 +47,11 @@ Delivery List
 
 ↓
 
+<<<<<<< HEAD
 Generate Route (Google Maps + Gemini assist — not route optimization)
+=======
+Generate Route
+>>>>>>> b0f303a60ad1a99e1e24ce5d6e96ea55d54818a1
 
 ↓
 
@@ -89,12 +93,20 @@ KPI Dashboard
 
 Owner
 
+<<<<<<< HEAD
 - Supabase Auth (email + password)
+=======
+- Secure login
+>>>>>>> b0f303a60ad1a99e1e24ce5d6e96ea55d54818a1
 
 Driver
 
 - Driver selection
+<<<<<<< HEAD
 - PIN authentication (bcrypt hash, application-layer session)
+=======
+- PIN authentication
+>>>>>>> b0f303a60ad1a99e1e24ce5d6e96ea55d54818a1
 
 ---
 
@@ -102,7 +114,11 @@ Driver
 
 Owner can:
 
+<<<<<<< HEAD
 - Create delivery (manual entry for MVP)
+=======
+- Create delivery
+>>>>>>> b0f303a60ad1a99e1e24ce5d6e96ea55d54818a1
 - Edit delivery
 - Delete delivery
 - Assign driver
@@ -149,9 +165,15 @@ Available status:
 
 Driver can:
 
+<<<<<<< HEAD
 - Upload photo (single photo, required)
 - View uploaded photo
 - Uploading automatically sets status to Delivered
+=======
+- Upload photo
+- View uploaded photo
+- Submit completion
+>>>>>>> b0f303a60ad1a99e1e24ce5d6e96ea55d54818a1
 
 ---
 
@@ -173,7 +195,11 @@ Display:
 
 - Delivery Success Rate
 - Failed Deliveries
+<<<<<<< HEAD
 - Average Delivery Time (calculated from delivery_status_logs)
+=======
+- Average Delivery Time
+>>>>>>> b0f303a60ad1a99e1e24ce5d6e96ea55d54818a1
 - Daily Performance
 
 ---
@@ -187,7 +213,10 @@ Display:
 - Driver cannot edit deliveries assigned to another driver.
 - Only Owner can assign drivers.
 - Only Owner can edit delivery information.
+<<<<<<< HEAD
 - All dates/times are handled in Asia/Jakarta.
+=======
+>>>>>>> b0f303a60ad1a99e1e24ce5d6e96ea55d54818a1
 
 ---
 
