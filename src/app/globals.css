@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-neutral-50 text-neutral-700 font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply text-neutral-900 font-semibold;
+  }
+
+  /* Visible keyboard focus everywhere — accessibility floor from the
+     Design System Specification (Section 1: UI Principles). */
+  :focus-visible {
+    @apply outline-none ring-2 ring-primary-500 ring-offset-2 ring-offset-neutral-0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
